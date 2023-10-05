@@ -1,5 +1,5 @@
 body{
-    background-color: hsl(220, 15%, 55%);
+    background-color: hsl(212, 45%, 89%);
     display: flex;
     justify-content: center;
     align-items: center; /* vertical centering */
@@ -11,15 +11,15 @@ body{
 .card {
     background-color: white;
     display: inline-block;
-    max-width: 220px;
-    padding: 20px;
+    max-width: 260px;
+    padding: 10px;
     text-align: center;
     border-radius: 10px;
     margin: 20px;
 }
 
 .card img {
-    max-width: 200px;
+    max-width: 250px;
     height: auto;
     border-radius: 10px;
 }
@@ -27,10 +27,13 @@ body{
 .text{
     font-size: 15px;
     font-family: 'Outfit', sans-serif;
+    color:hsl(220, 15%, 55%);
+    margin: 15px;
 }
 
-.text h2 {
+.text h3 {
     font-weight: bold;
+    color: black;
 }
 
 .attribution{
