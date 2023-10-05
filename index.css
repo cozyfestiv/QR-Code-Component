@@ -10,7 +10,8 @@ body{
 
 .card {
     background-color: white;
-    width: fit-content;
+    display: inline-block;
+    max-width: 100%;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
